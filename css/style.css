@@ -178,7 +178,7 @@ align-items: center;
 .data p {
      margin-top: 15px;
 }
-.textarea{
-    height: 300px ;
+textarea{
+    height: 200px ;
     resize: none ;
 }
