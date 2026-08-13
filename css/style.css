@@ -14,12 +14,14 @@ box-sizing: border-box;
     color: aliceblue;
     justify-content: space-between;
     padding: 50px;
+    flex-wrap: wrap;
 
 
 }
 ul{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 .navbar h2{
      font-family: "Fascinate Inline", system-ui;
@@ -45,8 +47,7 @@ span{
 .items{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap ;  
-    
+    flex-wrap: wrap;
     
 
 
@@ -169,6 +170,7 @@ border: solid 4px rgb(255, 248, 202)  ;
 display: flex;
 justify-content: space-between;
 align-items: center;
+flex-wrap: wrap;
 
 }
 
@@ -180,7 +182,8 @@ align-items: center;
 .data p {
      margin-top: 15px;
 }
+
 textarea{
-    height: 200px ;
-    resize: none ;
+    height: 200px;
+    resize: none;
 }
